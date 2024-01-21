@@ -10,9 +10,9 @@ export default function CartProvider({ children }: { children: ReactNode }) {
       cartMode="client-only"
       stripe={process.env.NEXT_PUBLIC_STRIPE_KEY as string}
       // successUrl="http://localhost:3000/stripe/success"
-      successUrl="https://https://e-commerce-web-weld.vercel.app/stripe/success"
+      successUrl="https://e-commerce-web-weld.vercel.app/stripe/success"
       // cancelUrl="http://localhost:3000/stripe/error"
-      cancelUrl="https://https://e-commerce-web-weld.vercel.app/stripe/error"
+      cancelUrl="https://e-commerce-web-weld.vercel.app/stripe/error"
       
       currency="USD"
       billingAddressCollection={false}
